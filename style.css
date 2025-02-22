@@ -1,0 +1,127 @@
+body{
+    height: 100vh;
+    background: linear-gradient(0deg, #8ec641, black);
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 3.5rem;
+    /* border-bottom: 2px solid black; */
+    padding: 20px;
+}
+
+input{
+    padding-right: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 8px double black;
+}
+
+.loginBtn{
+    border: 2px dotted black;
+    padding: 10px 255px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: rgb(159, 255, 225);
+    color: black;
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 2px solid black;
+    color:seashell;
+    font-size: 1.3rem;
+}
+
+a:hover {
+    background-color: transparent;
+    color:red;
+    border-bottom: 2px solid black;
+    font-size: 1.5rem;
+}
+
+.googleButton{
+    background: linear-gradient(150deg, red , yellow, green, blue);   
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 180px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.googleButton:hover{
+    font-size: 1.666rem;
+}
+
+.registerBtn{
+    border: 2px dotted black;
+    padding: 10px 245px;
+    background-color: gainsboro;
+    cursor: pointer;
+}
+
+.registerBtn:hover {
+    background-color: rgb(159, 255, 225);
+    color: black;
+    font-size: 1rem;
+}
+
+.logoutBtn{
+    border: 2px dotted black;
+    padding: 10px 100px;
+    margin-bottom: 30px;
+    font-size: large;
+    background-color: gainsboro;
+    cursor: pointer;   
+}
+
+.logoutBtn:hover {
+    background-color: rgb(159, 255, 225);
+    color: black;
+    font-size: 1.8rem;
+}
+
+.AddTodo{
+    /* border: 4px dotted blue; */
+    padding: 8px 60px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+b{
+    font-size: large;
+    font-weight:bold;
+    font-weight:900
+}
+
+span{
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.box{
+    padding: 10px;
+    margin-top: 2px;
+}
+
+#edit{
+    background-color: red;
+    padding: 6px;
+    margin: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#delete{
+    background-color: red;
+    padding: 6px;
+    margin: 5px;
+    font-size: medium;
+    cursor: pointer;
+}
