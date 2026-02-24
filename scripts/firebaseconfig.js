@@ -4,6 +4,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/11.3.0/firebas
 import { getAuth } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-auth.js";
 import {  getFirestore } from "https://www.gstatic.com/firebasejs/11.3.0/firebase-firestore.js";
 
+// Firebase Project Key
 
 const firebaseConfig = {
   apiKey: "AIzaSyA3Ql0hL3a7bufeXJZfNfS1aFNZW0D7TcI",
